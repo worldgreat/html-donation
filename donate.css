@@ -1,0 +1,89 @@
+/* General page styling */
+html, body {
+    height: 100%;  /* Make sure the body and html cover full height of the viewport */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Ensure body takes full viewport height */
+}
+
+header {
+    text-align: center;
+    background-color: #0044cc;
+    color: white;
+    padding: 50px 0;
+    background-image: url(./Image/first/smillingggg.jpg);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+.donation-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donation-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donation-form label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.donation-form input,
+.donation-form select,
+.donation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.donation-form select {
+    font-size: 1em;
+}
+
+.donation-form button {
+    background-color: purple;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+   
+    color: white;
+    margin-top: auto;  /* This ensures the footer is pushed to the bottom of the page */
+}
+
+body {background-image: url(./Image/first/smillingggg.jpg);}

@@ -1,0 +1,85 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input:focus,
+form textarea:focus {
+    outline-color: purple;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0033a1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: purple;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+body{background-image: url(./Image/second/istockphoto-838152722-612x612.jpg);}
